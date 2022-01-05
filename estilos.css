@@ -209,12 +209,13 @@ footer ul > li, footer p {
     font-size: .9em;
 }
 /***************************************************** HOME RESPONSIVE*************************************************/
-@media (max-width: 200px) {
+@media (max-width: 300px) {
     header  {
         display: flex;
         align-items: center;
         text-align: center;
         font-size: .8em;
+        background-color: green;
     }
     nav ul > li {
         display: block;
