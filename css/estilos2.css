@@ -8,10 +8,10 @@ body {
     flex-direction: column;
 }
 header {
-    height: 200px;
+    height: 400px;
     background-color: red;
 }
-@media (max-width: 375px) {
+@media (min-width: 100px) AND (max-width: 400px) {
     header {
         background-color: green;
     }
