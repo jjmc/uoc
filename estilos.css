@@ -11,6 +11,14 @@ body {
 header {
     height: 150px;
 }
+
+header > .content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
 .sitio {
     font-size: 2.5em;
     font-weight: bold;
@@ -21,23 +29,27 @@ header {
     margin-top: 5px;
 }
 /***************************************************** NAVEGACION  ******************************************************/
-nav > ul {
+header > div > nav > ul {
     margin-top: 0px;
-    line-height: 180%;
-    padding-left: 0;
+    margin-left: 0;
     list-style: none;
 }
-nav a:link, nav a:visited {
+header > .content > nav  a:link,
+header > .content > nav  a:visited {
     color: black;
     text-decoration: none;
 }
-nav a:hover {
+header > div > nav  a:hover {
     color: rgba(0, 0, 0, 0.5);
 }
-nav a:active {
+header > div > nav  a:active {
     color: rgb(189, 55, 0)
 }
-nav ul > li {
+header > div > nav > ul {
+    padding-left: 0px;
+}
+
+header > .content > nav > ul > li {
     display: inline-block;
     margin-right: 10px;
     font-weight: bold;
@@ -86,7 +98,8 @@ h1 {
 }
 .sectionI1 > .content {
     display: flex;
-    height: 260px;
+    /*height: 260px;*/
+    width: 90%;
     align-items: center;
     color: white;
     font-size: 3.4em;
@@ -105,7 +118,7 @@ h1 {
     flex-direction: row;
 }
 .noticias > article {
-    width: 225px;
+    width: 30%;
 }
 .sectionI3Img {
     max-width: 100%;
@@ -133,6 +146,7 @@ h1 {
 .artitulo-enlace {
     font-size: .7em;
 }
+
 .sectionI4 {
     background-color: rgb(242, 232, 228);
 }
@@ -209,26 +223,56 @@ footer ul > li, footer p {
     font-size: .9em;
 }
 /***************************************************** HOME RESPONSIVE*************************************************/
-@media (max-width: 300px) {
+@media (max-width: 500px) {
     header  {
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        justify-content: center;
         text-align: center;
-        font-size: .8em;
-        background-color: green;
+        padding-bottom: 5%;
     }
-    nav ul > li {
+    header > .content > nav > ul > li {
         display: block;
+        font-weight: bold;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+    .sitio {
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .sectionI1 > .content {
+        display: flex;
+        height: 100%;
+        width: 80%;
+        justify-content: left;
+        font-size: 2.5em;
     }
     h1 {
-        font-size: 2vh;
+        font-size: 3vh;
     }
     main {
         margin: 0 10px 0 10px;
     }
     .noticias {
-        display: flex;
         flex-direction: column;
+    }
+    .noticias > article {
+        width: 100%;
+        font-size: 1.5em;
+    }
+    .noticias > article > figure > figcaption {
+        margin-top: 10px;
+    }
+    .artitulo-titulo {
+        font-weight: bolder;
+    }
+    .artitulo-articulo {
+        line-height: 1.5em;
+    }
+    .artitulo-enlace {
+        font-size: .7em;
     }
     .sectionI4 > .content {
         display: flex;
