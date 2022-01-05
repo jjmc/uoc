@@ -209,7 +209,7 @@ footer ul > li, footer p {
     font-size: .9em;
 }
 /***************************************************** HOME RESPONSIVE*************************************************/
-@media (max-width: 500px) {
+@media (max-width: 300px) {
     main {
         margin: 0 10px 0 10px;
     }
