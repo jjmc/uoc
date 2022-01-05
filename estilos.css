@@ -210,7 +210,18 @@ footer ul > li, footer p {
 }
 /***************************************************** HOME RESPONSIVE*************************************************/
 @media (max-width: 500px) {
-
+    header  {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: .8em;
+    }
+    nav ul > li {
+        display: block;
+    }
+    h1 {
+        font-size: 2vh;
+    }
     main {
         margin: 0 10px 0 10px;
     }
@@ -224,30 +235,14 @@ footer ul > li, footer p {
         width: 80%;
     }
     footer {
-        display: flex;
-        align-items: center;
+        padding: 50px;
     }
-    h1 {
-        font-size: 2vh;
-    }
-    footer > .content {
+    footer ul > li, footer p {
         display: block;
-        font-size: 1em;
-        text-align: center;
-        width: 60%;
+        text-align:center;
+        font-size: .9em;
     }
-    footer > .content > ul > li {
-        font-size: 2em;
-    }
-    header  {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        font-size: .8em;
-    }
-    nav ul > li {
-        display: block;
-    }
+
 }
 
 
