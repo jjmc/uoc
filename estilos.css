@@ -88,12 +88,12 @@ h1 {
     text-align: center;
 }
 .sectionI1 {
-    height: 270px;
+    /*height: ;*/
     background-color: red;
     background-image: url("../images/bg-hero-home.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 50% 0%;
+    /*background-size: 100%;*/
+    background-position: top right;
     color: white;
 }
 .sectionI1 > .content {
