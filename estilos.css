@@ -232,9 +232,12 @@ footer ul > li, footer p {
     }
     footer > .content {
         display: block;
-        font-size: .9em;
+        font-size: 1em;
         text-align: center;
         width: 60%;
+    }
+    footer > .content > ul > li {
+        font-size: 2em;
     }
     header  {
         display: flex;
