@@ -217,7 +217,7 @@ section.sectionI4 > div.content > form button {
     color: rgb(255, 255, 255);
     background-color: rgb(189, 55, 0);
     width: 150px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0 10px 0;
     border: 0;
     margin: 10px 0 40px 0;
 }
