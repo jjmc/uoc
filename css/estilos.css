@@ -382,12 +382,68 @@ footer > div.content > div > p {
     section.sectionI3 > div.noticias > article > div.artitulo-enlace {
         font-size: .7em;
     }
-    /*section.sectionI3 > div.noticias > article > div.sectionI4 > .content {*/
-    /*    display: flex;*/
-    /*    flex-direction: column;*/
-    /*    width: 80%;*/
-    /*}*/
-/***************************************************** SINTOMA RESPONSIVE *********************************************/
+
+
+
+    section.sectionI4 {
+        background-color: rgb(242, 232, 228);
+    }
+    section.sectionI4 > div.content {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    section.sectionI4 > div.content > form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.sectionI4 > div.content > form a {
+        color: rgb(189, 55, 0);
+        text-decoration: none;
+    }
+
+    section.sectionI4 > div.content > form a:hover {
+        color: rgb(0, 0, 0);
+    }
+
+    section.sectionI4 > div.content > form {
+        font-size: .5em;
+        line-height: 1.3em;
+    }
+
+    section.sectionI4 > div.content > form input[type=checkbox] {
+        margin-left: 0;
+        color: green;
+        transform: scale(.8);
+    }
+
+    section.sectionI4 > div.content > form input[type=text] {
+        margin-bottom: 10px;
+        width: 400px;
+    }
+    section.sectionI4 > div.content > form label {
+        display: flex;
+        align-items: center
+    }
+
+    section.sectionI4 > div.content > form button {
+        color: rgb(255, 255, 255);
+        background-color: rgb(189, 55, 0);
+        width: 150px;
+        padding: 10px;
+        border: 0;
+        margin: 10px 0 40px 0;
+    }
+
+    section.sectionI4 > div.content > form button:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+    }
+
+
+    /***************************************************** SINTOMA RESPONSIVE *********************************************/
 
 /***************************************************** VIDEO RESPONSIVE ***********************************************/
 
