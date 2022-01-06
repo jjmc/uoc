@@ -32,7 +32,7 @@ header > div.content > div.sitio a {
 }
 /***************************************************** NAVEGACION  ******************************************************/
 header > div > nav > ul {
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 0;
     list-style: none;
 }
@@ -48,7 +48,7 @@ header > div > nav  a:active {
     color: rgb(189, 55, 0)
 }
 header > div > nav > ul {
-    padding-left: 0px;
+    padding-left: 0;
 }
 header > .content > nav > ul > li {
     display: inline-block;
@@ -133,7 +133,7 @@ section.sectionI3 > div.noticias {
     justify-content: space-between;
 }
 section.sectionI3 > div.noticias > article > figure {
-    margin: 0px;
+    margin: 0;
     font-size: .7em;
 }
 section.sectionI3 > div.noticias > article > figure > figcaption {
@@ -171,7 +171,7 @@ section.sectionI4 > div.content > form  {
     line-height: 1.3em;
 }
 section.sectionI4 > div.content > form input[type=checkbox] {
-    margin-left: 0px;
+    margin-left: 0;
     color: green;
     transform: scale(.8);
 }
@@ -188,7 +188,7 @@ section.sectionI4 > div.content > form button {
     background-color: rgb(189, 55, 0);
     width: 150px;
     padding: 10px;
-    border: 0px;
+    border: 0;
     margin: 10px 0 40px 0;
 
 }
