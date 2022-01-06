@@ -203,7 +203,7 @@ section.sectionI4 {
 section.sectionI4 > div.content {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 80%;
 }
 
 section.sectionI4 > div.content > form {
@@ -307,8 +307,8 @@ footer > div.content > div > p {
 }
 
 /***************************************************** COMUN RESPONSIVE*************************************************/
-@media (max-width: 375px) {
-/*@media (max-width: 500px) {*/
+/*@media (max-width: 375px) {*/
+@media (max-width: 500px) {
 
     header {
         height: 185px;
@@ -382,11 +382,11 @@ footer > div.content > div > p {
     section.sectionI3 > div.noticias > article > div.artitulo-enlace {
         font-size: .7em;
     }
-    section.sectionI3 > div.noticias > article > div.sectionI4 > .content {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-    }
+    /*section.sectionI3 > div.noticias > article > div.sectionI4 > .content {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    width: 80%;*/
+    /*}*/
 /***************************************************** SINTOMA RESPONSIVE *********************************************/
 
 /***************************************************** VIDEO RESPONSIVE ***********************************************/
