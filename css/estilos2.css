@@ -24,15 +24,15 @@ header {
     color: white;
 }
 
-/*.sectionI1 > .content {*/
-/*    display: flex;*/
-/*    height: 260px;*/
-/*    width: 90%;*/
-/*    align-items: center;*/
-/*    color: white;*/
-/*    font-size: 3.4em;*/
-/*    line-height: 1.5em;*/
-/*}*/
+.sectionI1 > .content {
+    display: flex;
+    height: 260px;
+    width: 90%;
+    align-items: center;
+    color: white;
+    font-size: 3.4em;
+    line-height: 1.5em;
+}
 
 @media (min-width: 600px) {
     header {
