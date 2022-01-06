@@ -11,18 +11,20 @@ body {
 header {
     height: 150px;
 }
-
 header > .content {
     margin-top: 20px;
     display: flex;
     justify-content: left;
     flex-direction: column;
 }
-
-.sitio {
+header > div.content > div.sitio {
     font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 10px;
+}
+header > div.content > div.sitio a {
+    text-decoration: none;
+    color: rgb(0,0,0);
 }
 .titulo {
     font-size: .8em;
@@ -48,7 +50,6 @@ header > div > nav  a:active {
 header > div > nav > ul {
     padding-left: 0px;
 }
-
 header > .content > nav > ul > li {
     display: inline-block;
     margin-right: 10px;
@@ -63,11 +64,11 @@ main {
 footer {
     height: 200px;
 }
+/***************************************************** COMUN **********************************************************/
 .content {
     margin: 0 auto;
     max-width: 750px;
 }
-/***************************************************** COMUN **********************************************************/
 .upper {
     text-transform: uppercase;
 }
@@ -87,21 +88,19 @@ footer {
 h1 {
     text-align: center;
 }
-.sectionI1 {
-    /*height: ;*/
-    background-color: red;
+section.sectionI1 {
+    height: 300px;
     background-image: url("../images/bg-hero-home.jpg");
     background-repeat: no-repeat;
-    /*background-size: 100%;*/
+    background-size: 100%;
     background-position: top right;
     color: white;
 }
-.sectionI1 > .content {
-    display: flex;
-    /*height: 260px;*/
-    width: 90%;
+section.sectionI1 > div.content {
+    height: 300px;
+    display:flex;
+    justify-content: center;
     align-items: center;
-    color: white;
     font-size: 3.4em;
     line-height: 1.5em;
 }
@@ -146,7 +145,6 @@ h1 {
 .artitulo-enlace {
     font-size: .7em;
 }
-
 .sectionI4 {
     background-color: rgb(242, 232, 228);
 }
@@ -223,31 +221,37 @@ footer ul > li, footer p {
     font-size: .9em;
 }
 /***************************************************** HOME RESPONSIVE*************************************************/
-@media (max-width: 375px) {
-    header  {
+/*@media (max-width: 375px) {*/
+@media (max-width: 500px) {
+    header {
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
         padding-bottom: 5%;
     }
-    header > .content > nav > ul > li {
+    header > div.content > div.sitio {
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    header > div.content > nav > ul > li {
         display: block;
         font-weight: bold;
         font-size: 1em;
         line-height: 1.5em;
     }
-    .sitio {
-        font-size: 3em;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-    .sectionI1 > .content {
+
+    section.sectionI1 > div.content {
         display: flex;
         height: 100%;
-        width: 80%;
         justify-content: left;
         font-size: 2.5em;
+        line-height: 1.5em;
+    }
+    section.sectionI1 > div.content > div {
+        width: 80%;
+        margin-left: 10px;
     }
     h1 {
         font-size: 3vh;
