@@ -303,8 +303,8 @@ footer > div.content > div > p {
 }
 
 /***************************************************** COMUN RESPONSIVE*************************************************/
-/*@media (max-width: 375px) {*/
-@media (max-width: 500px) {
+@media (max-width: 375px) {
+/*@media (max-width: 500px) {*/
 
     header {
         height: 185px;
