@@ -3,7 +3,6 @@ html, body {
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
 }
-
 body {
     display: flex;
     flex-direction: column;
@@ -12,28 +11,24 @@ body {
 /***************************************************** CABECERA********************************************************/
 header {
     height: 130px;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
-
 header > div.content {
     margin-top: 10px;
     display: flex;
     justify-content: left;
     flex-direction: column;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
-
 header > div.content > div.sitio {
     font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 10px;
 }
-
 header > div.content > div.sitio a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-
 header > div.content > div.titulo {
     font-size: .8em;
     margin-top: 5px;
@@ -45,25 +40,20 @@ header > div.content > nav > ul {
     margin-left: 0;
     list-style: none;
 }
-
 header > div.content > nav a:link,
 header > div.content > nav a:visited {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-
 header > div.content > nav a:hover {
     color: rgba(0, 0, 0, 0.5);
 }
-
 header > div.content > nav a.activo {
     color: rgb(189, 55, 0)
 }
-
 header > div.content > nav > ul {
     padding-left: 0;
 }
-
 header > div.content > nav > ul > li {
     display: inline-block;
     margin-right: 10px;
@@ -98,7 +88,6 @@ footer {
 .colorContraste {
     color: rgb(189, 55, 0);
 }
-
 .bold {
     font-weight: bold;
 }
@@ -108,11 +97,9 @@ h1 {
     text-align: center;
     font-size: 1.8rem;
 }
-
 main.indice {
     padding-top: 20px;
 }
-
 section.sectionI1 {
     height: 300px;
     background-image: url("../images/bg-hero-home.jpg");
@@ -120,9 +107,7 @@ section.sectionI1 {
     background-size: 100%;
     background-position: top right;
     color: white;
-    border: 1px solid blue;
 }
-
 section.sectionI1 > div.content {
     height: 300px;
     display:flex;
@@ -130,46 +115,36 @@ section.sectionI1 > div.content {
     align-items: center;
     font-size: 3.4em;
     line-height: 1.5em;
-    border: 1px solid yellow;
 }
-
 section.sectionI2 {
     font-size: 1.3em;
     line-height: 1.5em;
     margin-bottom: 100px;
 }
-
 section.sectionI3 {
     line-height: 1.5em;
     margin-bottom: 20px;
 }
-
 section.sectionI3 > div.noticias > article > p.artitulo-enlace > a {
     text-decoration-style: dotted;
     text-underline-offset: 1px;
 }
-
 section.sectionI3 > div.noticias > article > p.artitulo-enlace > a:hover {
     color: rgb(0, 0, 0);
 }
-
 section.sectionI3 > div.noticias > article > p.articulo-titulo > a {
     text-decoration: none;
 }
-
 section.sectionI3 > div.noticias > article > p.articulo-titulo > a:hover {
     color: rgb(0, 0, 0);
 }
-
 section.sectionI3 > div.noticias {
     display: flex;
     flex-direction: row;
 }
-
 section.sectionI3 > div.noticias > article {
     width: 30%;
 }
-
 section.sectionI3 > div.noticias > article > figure > img.sectionI3Img {
     max-width: 100%;
     height: auto;
@@ -196,59 +171,56 @@ section.sectionI3 > div.noticias > article > div.artitulo-articulo {
 section.sectionI3 > div.noticias > article > div.artitulo-enlace {
     font-size: .7em;
 }
-
 section.sectionI4 {
     background-color: rgb(242, 232, 228);
 }
 section.sectionI4 > div.content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border:1px solid red;*/
+}
+section.sectionI4 > div.content > form {
+    /*border: 1px solid green;*/
     width: 80%;
 }
-
-section.sectionI4 > div.content > form {
-    display: flex;
-    flex-direction: column;
-}
-
 section.sectionI4 > div.content > form a {
     color: rgb(189, 55, 0);
     text-decoration: none;
 }
-
 section.sectionI4 > div.content > form a:hover {
     color: rgb(0, 0, 0);
 }
-
 section.sectionI4 > div.content > form {
+    display: flex;
+    flex-direction: column;
     font-size: .5em;
     line-height: 1.3em;
+    width: 50%;
 }
-
 section.sectionI4 > div.content > form input[type=checkbox] {
     margin-left: 0;
     color: green;
     transform: scale(.8);
 }
-
 section.sectionI4 > div.content > form input[type=text] {
     margin-bottom: 10px;
-    width: 400px;
+    width: 100%;
+    border: 1px solid black;
 }
 section.sectionI4 > div.content > form label {
     display: flex;
     align-items: center
 }
-
 section.sectionI4 > div.content > form button {
     color: rgb(255, 255, 255);
     background-color: rgb(189, 55, 0);
     width: 150px;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     border: 0;
     margin: 10px 0 40px 0;
 }
-
 section.sectionI4 > div.content > form button:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
@@ -261,25 +233,21 @@ footer {
     color: rgb(255, 255, 255);
     display: flex;
 }
-
 footer > div.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
-
 footer > div.content > div.redes > p > a,
 footer > div.content > div.redes > p > a:link,
 footer > div.content > div.redes > p > a:visited {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-
 footer > div.content > div.redes > p > a:hover {
     opacity: 0.7;
 }
-
 footer > div.content > div > ul {
     margin: 0;
     padding-left: 0;
@@ -287,18 +255,15 @@ footer > div.content > div > ul {
     color: rgb(255, 255, 255);
 
 }
-
 footer > div.content > div > ul > li > a:link,
 footer > div.content > div > ul > li > a:visited,
 footer > div.content > div > ul > li > a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-
 footer > div.content > div > ul > li > a:hover {
     color: rgb(198, 55, 0);
 }
-
 footer > div.content > div > ul > li,
 footer > div.content > div > p {
     display: inline-block;
@@ -313,7 +278,6 @@ footer > div.content > div > p {
     header {
         height: 185px;
     }
-
     header > div.content {
         margin-top: 10px;
         display: flex;
@@ -321,40 +285,20 @@ footer > div.content > div > p {
         justify-content: center;
         text-align: center;
     }
-
     header > div.content > nav > ul > li {
         display: block;
         font-weight: bold;
         font-size: 1em;
         line-height: 1.5em;
     }
-
     footer {
         padding: 50px;
     }
-
     footer > div.content > div > ul > li,
-    footer div.content > div > p {
+    footer > div.content > div > p {
         display: block;
         text-align: center;
         font-size: .9em;
-    }
-
-    section.sectionI1 {
-        background-size: 120%;
-    }
-
-    section.sectionI1 > div.content {
-        display: flex;
-        height: 300px;
-        justify-content: left;
-        font-size: 2em;
-        line-height: 1em;
-    }
-
-    section.sectionI1 > div.content > div {
-        width: 80%;
-        margin-left: 15px;
     }
     h1 {
         font-size: 3vh;
@@ -363,6 +307,24 @@ footer > div.content > div > p {
         padding: 0 10px 0 10px;
     }
 /***************************************************** INDEX RESPONSIVE ***********************************************/
+
+    section.sectionI1 {
+        height: 300px;
+        background-size: 200%;
+        background-position: top right;
+    }
+    section.sectionI1 > div.content {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size: 1.9em;
+        line-height: 1.7em;
+    }
+    section.sectionI1 > div.content > div {
+        width: 80%;
+        margin-left: 15px;
+    }
+
     section.sectionI3 > div.noticias {
         flex-direction: column;
     }
@@ -383,67 +345,49 @@ footer > div.content > div > p {
         font-size: .7em;
     }
 
-
-
-    section.sectionI4 {
-        background-color: rgb(242, 232, 228);
+    section.sectionI4 > div.content >  h1 {
+        width: 82%;
     }
-    section.sectionI4 > div.content {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-    }
-
     section.sectionI4 > div.content > form {
         display: flex;
         flex-direction: column;
+        font-size: .5em;
+        line-height: 1.3em;
+        width: 82%;
     }
-
     section.sectionI4 > div.content > form a {
         color: rgb(189, 55, 0);
         text-decoration: none;
     }
-
     section.sectionI4 > div.content > form a:hover {
         color: rgb(0, 0, 0);
     }
-
-    section.sectionI4 > div.content > form {
-        font-size: .5em;
-        line-height: 1.3em;
-    }
-
     section.sectionI4 > div.content > form input[type=checkbox] {
         margin-left: 0;
-        color: green;
         transform: scale(.8);
     }
-
     section.sectionI4 > div.content > form input[type=text] {
         margin-bottom: 10px;
-        width: 400px;
+        width: 100%;
     }
     section.sectionI4 > div.content > form label {
         display: flex;
         align-items: center
     }
-
     section.sectionI4 > div.content > form button {
         color: rgb(255, 255, 255);
         background-color: rgb(189, 55, 0);
-        width: 150px;
-        padding: 10px;
+        width: 125px;
+        padding: 15px;
         border: 0;
         margin: 10px 0 40px 0;
     }
-
     section.sectionI4 > div.content > form button:hover {
         color: rgb(255, 255, 255);
         background-color: rgb(0, 0, 0);
     }
 
-
-    /***************************************************** SINTOMA RESPONSIVE *********************************************/
+/***************************************************** SINTOMA RESPONSIVE *********************************************/
 
 /***************************************************** VIDEO RESPONSIVE ***********************************************/
 
