@@ -11,7 +11,7 @@ header {
     height: 400px;
     background-color: red;
 }
-@media (max-width : 400px) {
+@media (min-width : 900px) {
     header {
         height: 800px;
         background-color: green;
