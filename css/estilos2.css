@@ -15,23 +15,27 @@ header {
 }
 
 .sectionI1 {
-    height:200px ;
+    height: 200px;
     background-color: yellow;
     background-image: url("../images/bg-hero-home.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top right;
-    color: white;
 }
 
 .sectionI1 > .content {
     display: flex;
-    height: 260px;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     align-items: center;
+}
+
+.sectionI1 > .content > div {
     color: white;
-    font-size: 3.4em;
+    width: 65%;
+    font-size: 2em;
     line-height: 1.5em;
+    margin-left: 10px;
 }
 
 @media (min-width: 600px) {
