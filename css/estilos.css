@@ -225,8 +225,8 @@ footer > div.content > div > p {
     font-size: .9em;
 }
 /***************************************************** COMUN RESPONSIVE*************************************************/
-/*@media (max-width: 375px) {*/
-@media (max-width: 500px) {
+@media (max-width: 375px) {
+/*@media (max-width: 500px) {*/
     header {
         display: flex;
         flex-direction: column;
