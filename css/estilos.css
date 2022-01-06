@@ -84,7 +84,7 @@ footer {
 .bold {
     font-weight: bold;
 }
-/***************************************************** HOME ***********************************************************/
+/***************************************************** INDEX ***********************************************************/
 h1 {
     text-align: center;
     font-size: 2.5vh;
@@ -112,8 +112,10 @@ section.sectionI2 {
 }
 
 section.sectionI3 {
-    /*font-size: 1.3em;*/
     line-height: 1.5em;
+}
+section.sectionI3 a {
+    text-decoration: dotted;
 }
 section.sectionI3 > div.noticias {
     display: flex;
