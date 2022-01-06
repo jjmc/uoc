@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f803d67-6d6e-4b66-bc5e-64b86174f5e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/estilos2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/estilos_ori.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/estilos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/estilos2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_ori.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641464232600</updated>
       <workItem from="1641464233749" duration="569000" />
-      <workItem from="1641468314325" duration="2613000" />
+      <workItem from="1641468314325" duration="5275000" />
     </task>
     <task id="LOCAL-00001" summary="prueba">
       <created>1641464659987</created>
@@ -76,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641468062547</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HOME">
+      <created>1641471240495</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641471240495</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +87,7 @@
     <MESSAGE value="prueba" />
     <MESSAGE value="Merge branch 'main' of https://github.com/jjmc/uoc into main&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules.xml" />
     <MESSAGE value="Prueba" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prueba" />
+    <MESSAGE value="HOME" />
+    <option name="LAST_COMMIT_MESSAGE" value="HOME" />
   </component>
 </project>

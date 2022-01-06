@@ -87,6 +87,7 @@ footer {
 /***************************************************** HOME ***********************************************************/
 h1 {
     text-align: center;
+    font-size: 2.5vh;
 }
 section.sectionI1 {
     height: 300px;
@@ -104,83 +105,83 @@ section.sectionI1 > div.content {
     font-size: 3.4em;
     line-height: 1.5em;
 }
-.sectionI2 {
+section.sectionI2 {
     font-size: 1.3em;
     line-height: 1.5em;
+    margin-bottom: 100px;
 }
-.sectionI3 {
+
+section.sectionI3 {
     /*font-size: 1.3em;*/
     line-height: 1.5em;
 }
-.noticias {
+section.sectionI3 > div.noticias {
     display: flex;
     flex-direction: row;
 }
-.noticias > article {
+section.sectionI3 > div.noticias > article {
     width: 30%;
 }
-.sectionI3Img {
+section.sectionI3 > div.noticias > article > figure > img.sectionI3Img {
     max-width: 100%;
     height: auto;
 }
-.noticias {
+section.sectionI3 > div.noticias {
     display: flex;
     justify-content: space-between;
 }
-.noticias > article > figure {
+section.sectionI3 > div.noticias > article > figure {
     margin: 0px;
     font-size: .7em;
 }
-.noticias > article > figure > figcaption {
+section.sectionI3 > div.noticias > article > figure > figcaption {
     margin-top: 10px;
 }
-.artitulo-titulo {
+section.sectionI3 > div.noticias > article > div.artitulo-titulo {
     font-size: .9em;
     font-weight: bolder;
 }
-.artitulo-articulo {
+section.sectionI3 > div.noticias > article > div.artitulo-articulo {
     font-size: .8em;
     line-height: 1.5em;
 }
-.artitulo-enlace {
+section.sectionI3 > div.noticias > article > div.artitulo-enlace {
     font-size: .7em;
 }
-.sectionI4 {
+
+section.sectionI4 {
     background-color: rgb(242, 232, 228);
 }
-.sectionI4 > h1{
-    text-align: center;
-}
-.sectionI4 > .content {
+section.sectionI4 > div.content {
     display: flex;
     flex-direction: column;
     width: 400px;
 }
-.sectionI4 > .content > form {
+section.sectionI4 > div.content > form {
     display: flex;
     flex-direction: column;
 }
-.sectionI4 form a {
+section.sectionI4 > div.content > form a {
     color: rgb(189, 55, 0);
 }
-.sectionI4 form  {
+section.sectionI4 > div.content > form  {
     font-size: .5em;
     line-height: 1.3em;
 }
-.sectionI4 form input[type=checkbox] {
+section.sectionI4 > div.content > form input[type=checkbox] {
     margin-left: 0px;
     color: green;
     transform: scale(.8);
 }
-.sectionI4 form input[type=text] {
+section.sectionI4 > div.content > form input[type=text] {
     margin-bottom: 10px;
     width: 400px;
 }
-.sectionI4 form label {
+section.sectionI4 > div.content > form label {
     display: flex;
     align-items: center
 }
-.sectionI4 form button {
+section.sectionI4 > div.content > form button {
     color: white;
     background-color: rgb(189, 55, 0);
     width: 150px;
@@ -196,31 +197,32 @@ footer {
      color: rgb(255, 255, 255);
      display: flex;
  }
-footer > .content {
+footer > div.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
-footer > .content > div > ul {
+footer > div.content > div > ul {
     margin: 0;
     padding-left: 0;
     list-style: none;
     color: rgb(255, 255, 255);
 
 }
-footer  a:link,
-footer  a:visited,
-footer  a {
+footer > div.content > div > ul > li a:link,
+footer > div.content > div > ul > li a:visited,
+footer > div.content > div > ul > a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-footer ul > li, footer p {
+footer > div.content > div > ul > li,
+footer > div.content > div > p {
     display: inline-block;
     margin-right: 10px;
     font-size: .9em;
 }
-/***************************************************** HOME RESPONSIVE*************************************************/
+/***************************************************** COMUN RESPONSIVE*************************************************/
 /*@media (max-width: 375px) {*/
 @media (max-width: 500px) {
     header {
@@ -241,6 +243,15 @@ footer ul > li, footer p {
         font-size: 1em;
         line-height: 1.5em;
     }
+    footer {
+        padding: 50px;
+    }
+    footer > div.content > div > ul > li,
+    footer  div.content > div > p {
+        display: block;
+        text-align:center;
+        font-size: .9em;
+    }
 
     section.sectionI1 > div.content {
         display: flex;
@@ -251,47 +262,47 @@ footer ul > li, footer p {
     }
     section.sectionI1 > div.content > div {
         width: 80%;
-        margin-left: 10px;
+        margin-left: 15px;
     }
+
     h1 {
-        font-size: 3vh;
+        font-size: 2vh;
     }
+
     main {
         margin: 0 10px 0 10px;
     }
-    .noticias {
+
+/***************************************************** INDEX RESPONSIVE ***********************************************/
+    section.sectionI3 > div.noticias {
         flex-direction: column;
     }
-    .noticias > article {
+    section.sectionI3 > div.noticias > article {
         width: 100%;
         font-size: 1.5em;
     }
-    .noticias > article > figure > figcaption {
+    section.sectionI3 > div.noticias > article > figure > figcaption {
         margin-top: 10px;
     }
-    .artitulo-titulo {
+    section.sectionI3 > div.noticias > article > div.artitulo-titulo {
         font-weight: bolder;
     }
-    .artitulo-articulo {
+    section.sectionI3 > div.noticias > article > div.artitulo-articulo {
         line-height: 1.5em;
     }
-    .artitulo-enlace {
+    section.sectionI3 > div.noticias > article > div.artitulo-enlace {
         font-size: .7em;
     }
-    .sectionI4 > .content {
+    section.sectionI3 > div.noticias > article > div.sectionI4 > .content {
         display: flex;
         flex-direction: column;
         width: 80%;
     }
-    footer {
-        padding: 50px;
-    }
-    footer ul > li, footer p {
-        display: block;
-        text-align:center;
-        font-size: .9em;
-    }
+/***************************************************** SINTOMA RESPONSIVE *********************************************/
 
+/***************************************************** VIDEO RESPONSIVE ***********************************************/
+
+/***************************************************** COP25 RESPONSIVE ***********************************************/
 }
 
 
