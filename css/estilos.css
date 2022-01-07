@@ -10,9 +10,6 @@ body {
 }
 
 
-
-
-
 /***************************************************** CABECERA********************************************************/
 header {
     height: 130px;
@@ -341,16 +338,12 @@ main.sintomas > section > article > div.col2 > a {
 }
 main.sintomas > section > article > div.col2 > a:link,
 main.sintomas > section > article > div.col2 > a:visited {
-
 }
 main.sintomas > section > article > div.col2 > a:hover {
     color: rgb(0, 0, 0);
-
 }
 main.sintomas > section > article > div.col2 > a.activo {
-
 }
-
 main.sintomas > section > article:nth-child(1) > div.col1 {
     background-image: url("../images/symptom-01.jpg");
 }
@@ -388,8 +381,62 @@ main.sintomas > section > article:nth-child(5) {
 }
 
 /***************************************************** VIDEOS *****************************************************/
-.pievideo {
+main.videos > h1 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+main.videos > section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    height: 100%;
+    margin-bottom: 50px;
+}
+main.videos > section:nth-child(1){
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+main.videos > section:nth-child(2){
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+main.videos > section:nth-child(3){
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+main.videos > section:nth-child(1){
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+main.videos > section > div.video {
+    margin-bottom: 50px;
+}
+main.videos > section > div.video > div.iframe {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+main.videos > section > div.video > div.pievideo {
+    padding: 30px;
+    background-color: white;
+    font-size: .8rem;
     text-align: center;
+}
+main.videos > section > div.video > div.pievideo > span {
+    font-style: italic;
+    font-weight: bold;
+}
+main.videos > section > div.video > div.iframe > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 /**********************************************************************************************************************/
 /***************************************************** RESPONSIVE *****************************************************/
@@ -535,45 +582,6 @@ main.sintomas > section > article:nth-child(5) {
         background-position: center center;
         background-image: url("../images/symptom-01.jpg");
     }
-    /*
-    main.sintomas > section > article {
-        display: flex;
-        flex-direction: column;
-        border-radius: 5px;
-        !*height: 50vh;*!
-        margin-top: 30px;
-        background-color: white;
-    }
-   div.col1 {
-        !*height: 800px;*!
-        background-repeat: no-repeat;
-        background-size:  cover;
-        background-position: center center;
-    }
-    main.sintomas > section > article:nth-child(1) > div.col1 {
-        height: 800px;
-        background-repeat: no-repeat;
-        background-size:  cover;
-        background-position: center center;
-        background-image: url("../images/symptom-01.jpg");
-    }
-    main.sintomas > section > article:nth-child(2) > div.col1 {
-        background-image: url("../images/symptom-02.jpg");
-    }
-    main.sintomas > section > article:nth-child(3) > div.col1 {
-             background-image: url("../images/symptom-03.jpg");
-         }
-    main.sintomas > section > article:nth-child(4) > div.col1 {
-        background-image: url("../images/symptom-04.jpg");
-    }
-    main.sintomas > section > article:nth-child(5) > div.col1 {
-        background-image: url("../images/symptom-05.jpg");
-    }
-    main.sintomas > section > article > div.col1,
-    main.sintomas > section > article > div.col2 {
-        width: 95%;
-        margin: 13px;
-    }*/
 /***************************************************** VIDEO RESPONSIVE ***********************************************/
     main.videos > h1 {
         font-size: 1.5rem;
