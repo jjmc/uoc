@@ -386,8 +386,8 @@ main.sintomas > section > article:nth-child(5) {
 /***************************************************** RESPONSIVE *****************************************************/
 /**********************************************************************************************************************/
 
-@media (max-width: 375px) {
-/*@media (max-width: 500px) {*/
+/*@media (max-width: 375px) {*/
+@media (max-width: 650px) {
 
     header {
         height: 185px;
@@ -513,11 +513,10 @@ main.sintomas > section > article:nth-child(5) {
         flex-direction: column;
         border-radius: 5px;
         margin-top: 30px;
-        /*border: 1px solid;*/
         background-color: white;
     }
     main.sintomas > section > article > div.col1 {
-        height: 20vh;
+        height: 30vh;
         background-repeat: no-repeat;
         background-size:  cover;
         background-position: center center;

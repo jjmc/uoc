@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f803d67-6d6e-4b66-bc5e-64b86174f5e8" name="Default Changelist" comment="">
+    <list default="true" id="7f803d67-6d6e-4b66-bc5e-64b86174f5e8" name="Default Changelist" comment="sintomas definitivo y ambiando el ancho del content a 1000">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +14,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="imagenes_sintomas" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="23JttZZ7tZUtBYfZpgBjttWpeyQ" />
@@ -124,7 +130,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641485822607</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="INDEX definitivo">
+      <created>1641495542120</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641495542120</updated>
+    </task>
+    <task id="LOCAL-00013" summary="sintomas definitivo y ambiando el ancho del content a 1000">
+      <created>1641552839866</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1641552839866</updated>
+    </task>
+    <task id="LOCAL-00014" summary="sintomas definitivo y ambiando el ancho del content a 1000">
+      <created>1641561290589</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1641561290589</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +163,8 @@
     <MESSAGE value="Prueba" />
     <MESSAGE value="HOME" />
     <MESSAGE value="INDEX" />
-    <option name="LAST_COMMIT_MESSAGE" value="INDEX" />
+    <MESSAGE value="INDEX definitivo" />
+    <MESSAGE value="sintomas definitivo y ambiando el ancho del content a 1000" />
+    <option name="LAST_COMMIT_MESSAGE" value="sintomas definitivo y ambiando el ancho del content a 1000" />
   </component>
 </project>
