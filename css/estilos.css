@@ -2,6 +2,7 @@ html, body {
     padding: 0;
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
 }
 body {
     display: flex;
@@ -11,7 +12,6 @@ body {
 /***************************************************** CABECERA********************************************************/
 header {
     height: 130px;
-    /*border: 1px solid green;*/
 }
 header > div.content {
     margin-top: 10px;
@@ -34,7 +34,7 @@ header > div.content > div.titulo {
     margin-top: 5px;
 }
 
-/***************************************************** NAVEGACION  ******************************************************/
+/***************************************************** NAVEGACION  ****************************************************/
 header > div.content > nav > ul {
     margin-top: 0;
     margin-left: 0;
@@ -69,12 +69,53 @@ main {
 
 /***************************************************** FOOTER *********************************************************/
 footer {
-    height: 200px;
+    height: 220px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
 }
+footer > div.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+footer > div.content > div.redes > p > a,
+footer > div.content > div.redes > p > a:link,
+footer > div.content > div.redes > p > a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+footer > div.content > div.redes > p > a:hover {
+    opacity: 0.7;
+}
+footer > div.content > div > ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    color: rgb(255, 255, 255);
+
+}
+footer > div.content > div > ul > li > a:link,
+footer > div.content > div > ul > li > a:visited,
+footer > div.content > div > ul > li > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+footer > div.content > div > ul > li > a:hover {
+    color: rgb(198, 55, 0);
+}
+footer > div.content > div > ul > li,
+footer > div.content > div > p {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: .9em;
+}
+
 /***************************************************** COMUN **********************************************************/
 .content {
     margin: 0 auto;
-    max-width: 750px;
+    max-width: 1000px;
 }
 .upper {
     text-transform: uppercase;
@@ -92,7 +133,7 @@ footer {
     font-weight: bold;
 }
 
-/***************************************************** INDEX ***********************************************************/
+/***************************************************** INDEX **********************************************************/
 h1 {
     text-align: center;
     font-size: 1.8rem;
@@ -101,7 +142,7 @@ main.indice {
     padding-top: 20px;
 }
 section.sectionI1 {
-    height: 300px;
+    height: 350px;
     background-image: url("../images/bg-hero-home.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -109,18 +150,20 @@ section.sectionI1 {
     color: white;
 }
 section.sectionI1 > div.content {
-    height: 300px;
+    height: 350px;
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 3.4em;
+    font-size: 4.5em;
     line-height: 1.5em;
 }
+
 section.sectionI2 {
-    font-size: 1.3em;
+    font-size: 1.8rem;
     line-height: 1.5em;
     margin-bottom: 100px;
 }
+
 section.sectionI3 {
     line-height: 1.5em;
     margin-bottom: 20px;
@@ -171,6 +214,7 @@ section.sectionI3 > div.noticias > article > div.artitulo-articulo {
 section.sectionI3 > div.noticias > article > div.artitulo-enlace {
     font-size: .7em;
 }
+
 section.sectionI4 {
     background-color: rgb(242, 232, 228);
 }
@@ -179,12 +223,8 @@ section.sectionI4 > div.content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*border:1px solid red;*/
 }
-section.sectionI4 > div.content > form {
-    /*border: 1px solid green;*/
-    width: 80%;
-}
+
 section.sectionI4 > div.content > form a {
     color: rgb(189, 55, 0);
     text-decoration: none;
@@ -197,7 +237,7 @@ section.sectionI4 > div.content > form {
     flex-direction: column;
     font-size: .5em;
     line-height: 1.3em;
-    width: 50%;
+    width: 40%;
 }
 section.sectionI4 > div.content > form input[type=checkbox] {
     margin-left: 0;
@@ -226,52 +266,107 @@ section.sectionI4 > div.content > form button:hover {
     background-color: rgb(0, 0, 0);
 }
 
-/***************************************************** FOOTER *********************************************************/
-footer {
-    height: 220px;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    display: flex;
+/***************************************************** SINTOMAS *******************************************************/
+
+main.sintomas > section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    height: 100%;
+    margin-bottom: 50px;
 }
-footer > div.content {
+main.sintomas > section > article {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 200px;
+    border-radius: 5px;
+}
+main.sintomas > section > article > div.col1,
+main.sintomas > section > article > div.col2 {
+    width: 50%;
+    margin: 13px;
+}
+
+main.sintomas > section > article > div.col1 {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+main.sintomas > section > article > div.col2 {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    font-size: .7em;
 }
-footer > div.content > div.redes > p > a,
-footer > div.content > div.redes > p > a:link,
-footer > div.content > div.redes > p > a:visited {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-footer > div.content > div.redes > p > a:hover {
-    opacity: 0.7;
-}
-footer > div.content > div > ul {
+main.sintomas > section > article > div.col2 > h2 {
+    font-weight: normal;
     margin: 0;
-    padding-left: 0;
-    list-style: none;
-    color: rgb(255, 255, 255);
+}
+main.sintomas > section > article > div.col2 > p {
+    flex: 1;
+    margin: 5px 0;
+    line-height: 1.5em;
+    text-align: justify;
+}
+main.sintomas > section > article > div.col2 > a {
+    text-decoration-style: dotted;
+    text-underline-offset: 1px;
+    font-weight: bold;
+}
+main.sintomas > section > article > div.col2 > a:link,
+main.sintomas > section > article > div.col2 > a:visited {
 
 }
-footer > div.content > div > ul > li > a:link,
-footer > div.content > div > ul > li > a:visited,
-footer > div.content > div > ul > li > a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+main.sintomas > section > article > div.col2 > a:hover {
+    color: rgb(0, 0, 0);
+
 }
-footer > div.content > div > ul > li > a:hover {
-    color: rgb(198, 55, 0);
+main.sintomas > section > article > div.col2 > a.activo {
+
 }
-footer > div.content > div > ul > li,
-footer > div.content > div > p {
-    display: inline-block;
-    margin-right: 10px;
-    font-size: .9em;
+main.sintomas > section > article:nth-child(1) > div.col1 {
+    background-image: url("../images/symptom-01.jpg");
+}
+main.sintomas > section > article:nth-child(2) > div.col1 {
+    background-image: url("../images/symptom-02.jpg");
+}
+main.sintomas > section > article:nth-child(3) > div.col1 {
+    background-image: url("../images/symptom-03.jpg");
+}
+main.sintomas > section > article:nth-child(4) > div.col1 {
+    background-image: url("../images/symptom-04.jpg");
+}
+main.sintomas > section > article:nth-child(5) > div.col1 {
+    background-image: url("../images/symptom-05.jpg");
+}
+main.sintomas > section > article:nth-child(1) {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+main.sintomas > section > article:nth-child(2) {
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+main.sintomas > section > article:nth-child(3) {
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
+main.sintomas > section > article:nth-child(4) {
+    grid-column: 2 / 4;
+    grid-row: 4;
+}
+main.sintomas > section > article:nth-child(5) {
+    grid-column: 1 / 3;
+    grid-row: 5;
 }
 
-/***************************************************** COMUN RESPONSIVE*************************************************/
+
+/**********************************************************************************************************************/
+/***************************************************** RESPONSIVE *****************************************************/
+/**********************************************************************************************************************/
+
 @media (max-width: 375px) {
 /*@media (max-width: 500px) {*/
 
@@ -388,6 +483,33 @@ footer > div.content > div > p {
     }
 
 /***************************************************** SINTOMA RESPONSIVE *********************************************/
+    main.sintomas > section > article > img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    main.sintomas > section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 20px;
+    }
+    main.sintomas > section > article {
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+    }
+    main.sintomas > section > article {
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        background-color: rgb(255,255,255);
+        border: 1px solid red;
+    }
+    main.sintomas > section > article {
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        /*background-color: rgb(255,255,255);*/
+        /*border: 1px solid red;*/
+        /*width: 500px;*/
+    }
 
 /***************************************************** VIDEO RESPONSIVE ***********************************************/
 
