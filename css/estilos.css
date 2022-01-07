@@ -9,7 +9,6 @@ body {
     flex-direction: column;
 }
 
-
 /***************************************************** CABECERA********************************************************/
 header {
     height: 130px;
@@ -128,6 +127,10 @@ footer > div.content > div > p {
 .pad-20-0-10-10 {
     padding: 10px 0 10px 10px;
 }
+.pad-20-0-20-10 {
+    padding: 20px 0 20px 10px;
+    font-size: 1.3rem;
+}
 .colorContraste {
     color: rgb(189, 55, 0);
 }
@@ -152,6 +155,11 @@ a.enlace {
 a.enlace:hover {
     color: rgb(0, 0, 0);
 }
+
+abbr {
+    text-decoration: none;
+}
+
 
 /***************************************************** INDEX **********************************************************/
 h1 {
@@ -276,10 +284,11 @@ section.sectionI4 > div.content > form label {
 section.sectionI4 > div.content > form button {
     color: rgb(255, 255, 255);
     background-color: rgb(189, 55, 0);
-    width: 150px;
+    width: 170px;
     padding: 10px 0 10px 0;
     border: 0;
     margin: 10px 0 40px 0;
+    font-size: 1.2rem;
 }
 section.sectionI4 > div.content > form button:hover {
     color: rgb(255, 255, 255);
@@ -439,7 +448,6 @@ main.videos > section > div.video > div.iframe > iframe {
     border: none;
 }
 
-
 /***************************************************** COP26 *****************************************************/
 main.cop26 {
     line-height: 1.5rem;
@@ -463,8 +471,13 @@ main.cop26 dl dd {
 
 main.cop26 dl dt {
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 25px;
     font-weight: bold;
+    font-size: .9rem;
+}
+
+main.cop26 > div.content ol {
+    padding-left: 25px;
 }
 
 blockquote {
@@ -515,52 +528,80 @@ blockquote > p:last-child {
         text-align: center;
         font-size: .9em;
     }
+
     h1 {
         font-size: 1.2rem;
     }
+
     main {
         padding: 0 10px 0 10px;
     }
-/***************************************************** INDEX RESPONSIVE ***********************************************/
+
+    /***************************************************** INDEX RESPONSIVE ***********************************************/
+    main.indice > h1, section.sectionI4 > div.content > h1 {
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
 
     section.sectionI1 {
         height: 300px;
         background-size: 200%;
         background-position: top right;
     }
+
     section.sectionI1 > div.content {
         display: flex;
         justify-content: left;
         align-items: center;
         font-size: 1.9em;
         line-height: 1.7em;
+        height: 300px;
     }
+
     section.sectionI1 > div.content > div {
-        width: 80%;
+        width: 65%;
         margin-left: 15px;
     }
-    section.sectionI3 > div.noticias {
+
+    main.indice > section.sectionI2 {
+        font-size: 1.5rem;
+    }
+
+    main.indice > section.sectionI3 > div.noticias {
         flex-direction: column;
     }
-    section.sectionI3 > div.noticias > article {
+
+    main.indice > section.sectionI3 > div.noticias > article {
         width: 100%;
-        font-size: 1.5em;
+        font-size: 1rem;
     }
-    section.sectionI3 > div.noticias > article > figure > figcaption {
+
+    main.indice > section.sectionI3 > div.noticias > article > figure > figcaption {
         margin-top: 10px;
     }
-    section.sectionI3 > div.noticias > article > div.artitulo-titulo {
+
+    main.indice > section.sectionI3 > div.noticias > article > p.artitulo-titulo {
         font-weight: bolder;
+        font-size: 2rem;
     }
-    section.sectionI3 > div.noticias > article > div.artitulo-articulo {
-        line-height: 1.5em;
+
+    main.indice > section.sectionI3 > div.noticias > article > p.articulo-titulo > a {
+        text-decoration: none;
+        font-size: 1.4rem;
     }
-    section.sectionI3 > div.noticias > article > div.artitulo-enlace {
-        font-size: .7em;
+
+    main.indice > section.sectionI3 > div.noticias > article > p.artitulo-articulo {
+        line-height: 1.5rem;
     }
-    section.sectionI4 > div.content >  h1 {
+
+    main.indice > section.sectionI3 > div.noticias > article > p.artitulo-enlace > a {
+        font-size: 1rem;
+    }
+
+    section.sectionI4 > div.content > h1 {
         width: 82%;
     }
+
     section.sectionI4 > div.content > form {
         display: flex;
         flex-direction: column;
@@ -568,6 +609,7 @@ blockquote > p:last-child {
         line-height: 1.3em;
         width: 82%;
     }
+
     section.sectionI4 > div.content > form a {
         color: rgb(189, 55, 0);
         text-decoration: none;
@@ -590,7 +632,7 @@ blockquote > p:last-child {
     section.sectionI4 > div.content > form button {
         color: rgb(255, 255, 255);
         background-color: rgb(189, 55, 0);
-        width: 125px;
+        width: 170px;
         padding: 15px;
         border: 0;
         margin: 10px 0 40px 0;
@@ -598,6 +640,11 @@ blockquote > p:last-child {
     section.sectionI4 > div.content > form button:hover {
         color: rgb(255, 255, 255);
         background-color: rgb(0, 0, 0);
+    }
+    section.sectionI4 > div.content > form > p.lpd,
+    section.sectionI4 > div.content > form > label.privacidad {
+        font-size: .7rem;
+        line-height: 1rem;
     }
 
 /***************************************************** SINTOMA RESPONSIVE *********************************************/
@@ -665,17 +712,30 @@ blockquote > p:last-child {
         border: none;
     }
 
-/***************************************************** COP25 RESPONSIVE ***********************************************/
+    /***************************************************** COP25 RESPONSIVE ***********************************************/
+    main.cop26 > h1 {
+        font-size: 1.5rem;
+        font-weight: normal;
+        /*color:red;*/
+    }
+
+    main.cop26 > div.content > section > h2 {
+        font-size: 1rem;
+        font-weight: normal;
+        /*color:blue;*/
+    }
+
     main.cop26 > div.content {
         display: block;
     }
-    main.cop26 > div.content >section {
-        borde: 0;
+
+    main.cop26 > div.content > section {
+        border: 0;
     }
 
     main.cop26 > div.content > section {
-        width: 90%;
-        padding: 30px;
+        width: 95%;
+        padding: 10px;
     }
 }
 
