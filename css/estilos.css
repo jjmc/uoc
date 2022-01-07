@@ -438,6 +438,51 @@ main.videos > section > div.video > div.iframe > iframe {
     height: 100%;
     border: none;
 }
+
+
+/***************************************************** COP26 *****************************************************/
+main.cop26 {
+    line-height: 1.5rem;
+}
+
+main.cop26 > div.content {
+    display: flex;
+    flex-direction: row;
+}
+
+main.cop26 > div.content > section {
+    /*border: 1px solid;*/
+    width: 50%;
+    padding: 30px;
+
+}
+
+main.cop26 dl dd {
+    margin-left: 0;
+}
+
+main.cop26 dl dt {
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+blockquote {
+    background-color: rgb(255, 255, 255);
+    margin: 0 0 40px 0;
+    padding: 4px 13px 4px 13px;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    font-style: italic;
+    border-left: 4px solid rgb(189, 55, 0);
+}
+
+blockquote > p:last-child {
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+
 /**********************************************************************************************************************/
 /***************************************************** RESPONSIVE *****************************************************/
 /**********************************************************************************************************************/
@@ -619,7 +664,19 @@ main.videos > section > div.video > div.iframe > iframe {
         height: 100%;
         border: none;
     }
+
 /***************************************************** COP25 RESPONSIVE ***********************************************/
+    main.cop26 > div.content {
+        display: block;
+    }
+    main.cop26 > div.content >section {
+        borde: 0;
+    }
+
+    main.cop26 > div.content > section {
+        width: 90%;
+        padding: 30px;
+    }
 }
 
 
