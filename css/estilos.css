@@ -12,13 +12,16 @@ body {
 /***************************************************** CABECERA********************************************************/
 header {
     height: 130px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: rgb(255,255,255);
 }
 header > div.content {
     margin-top: 10px;
     display: flex;
     justify-content: left;
     flex-direction: column;
-    /*border: 1px solid red;*/
 }
 header > div.content > div.sitio {
     font-size: 2.5em;
