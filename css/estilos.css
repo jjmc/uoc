@@ -295,6 +295,7 @@ section.sectionI4 > div.content > form button:hover {
 }
 
 /***************************************************** SINTOMAS *******************************************************/
+/*
 
 main.sintomas > section {
     display: grid;
@@ -387,7 +388,37 @@ main.sintomas > section > article:nth-child(5) {
     grid-column: 1 / 3;
     grid-row: 5;
 }
+*/
 
+main.sintomas > section > article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: grey;
+    padding: 30px 20px;
+}
+main.sintomas > section > article > div.col1 {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center center;
+}
+main.sintomas > section > article:nth-child(1) > div.col1 {
+    background-image: url("../images/symptom-01.jpg");
+}
+main.sintomas > section > article:nth-child(2) > div.col1 {
+    background-image: url("../images/symptom-02.jpg");
+}
+main.sintomas > section > article:nth-child(3) > div.col1 {
+    background-image: url("../images/symptom-03.jpg");
+}
+main.sintomas > section > article:nth-child(4) > div.col1 {
+    background-image: url("../images/symptom-04.jpg");
+}
+main.sintomas > section > article:nth-child(5) > div.col1 {
+    background-image: url("../images/symptom-05.jpg");
+}
 /***************************************************** VIDEOS *****************************************************/
 main.videos > h1 {
     font-size: 1.5rem;
@@ -527,11 +558,9 @@ blockquote > p:last-child {
         text-align: center;
         font-size: .9em;
     }
-
     h1 {
         font-size: 1.2rem;
     }
-
     main {
         padding: 0 10px 0 10px;
     }
@@ -541,13 +570,11 @@ blockquote > p:last-child {
         font-size: 1.5rem;
         font-weight: normal;
     }
-
     section.sectionI1 {
         height: 300px;
         background-size: 200%;
         background-position: top right;
     }
-
     section.sectionI1 > div.content {
         display: flex;
         justify-content: left;
@@ -556,51 +583,40 @@ blockquote > p:last-child {
         line-height: 1.7em;
         height: 300px;
     }
-
     section.sectionI1 > div.content > div {
         width: 65%;
         margin-left: 15px;
     }
-
     main.indice > section.sectionI2 {
         font-size: 1.5rem;
     }
-
     main.indice > section.sectionI3 > div.noticias {
         flex-direction: column;
     }
-
     main.indice > section.sectionI3 > div.noticias > article {
         width: 100%;
         font-size: 1rem;
     }
-
     main.indice > section.sectionI3 > div.noticias > article > figure > figcaption {
         margin-top: 10px;
     }
-
     main.indice > section.sectionI3 > div.noticias > article > p.artitulo-titulo {
         font-weight: bolder;
         font-size: 2rem;
     }
-
     main.indice > section.sectionI3 > div.noticias > article > p.articulo-titulo > a {
         text-decoration: none;
         font-size: 1.4rem;
     }
-
     main.indice > section.sectionI3 > div.noticias > article > p.artitulo-articulo {
         line-height: 1.5rem;
     }
-
     main.indice > section.sectionI3 > div.noticias > article > p.artitulo-enlace > a {
         font-size: 1rem;
     }
-
     section.sectionI4 > div.content > h1 {
         width: 82%;
     }
-
     section.sectionI4 > div.content > form {
         display: flex;
         flex-direction: column;
@@ -608,7 +624,6 @@ blockquote > p:last-child {
         line-height: 1.3em;
         width: 82%;
     }
-
     section.sectionI4 > div.content > form a {
         color: rgb(189, 55, 0);
         text-decoration: none;
@@ -662,16 +677,31 @@ blockquote > p:last-child {
     main.sintomas > section > article {
         display: flex;
         flex-direction: column;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        background-color: grey;
+        padding: 30px 20px;
     }
     main.sintomas > section > article > div.col1 {
-     height: 20vh;
-    }
-    main.sintomas > section > article:nth-child(1) > div.col1 {
         height: 500px;
         background-repeat: no-repeat;
         background-size:  cover;
         background-position: center center;
+    }
+    main.sintomas > section > article:nth-child(1) > div.col1 {
         background-image: url("../images/symptom-01.jpg");
+    }
+    main.sintomas > section > article:nth-child(2) > div.col1 {
+        background-image: url("../images/symptom-02.jpg");
+    }
+    main.sintomas > section > article:nth-child(3) > div.col1 {
+        background-image: url("../images/symptom-03.jpg");
+    }
+    main.sintomas > section > article:nth-child(4) > div.col1 {
+        background-image: url("../images/symptom-04.jpg");
+    }
+    main.sintomas > section > article:nth-child(5) > div.col1 {
+        background-image: url("../images/symptom-05.jpg");
     }
 /***************************************************** VIDEO RESPONSIVE ***********************************************/
     main.videos > h1 {
@@ -717,25 +747,22 @@ blockquote > p:last-child {
         font-weight: normal;
         /*color:red;*/
     }
-
     main.cop26 > div.content > section > h2 {
         font-size: 1rem;
         font-weight: normal;
         /*color:blue;*/
     }
-
     main.cop26 > div.content {
         display: block;
     }
-
     main.cop26 > div.content > section {
         border: 0;
     }
-
     main.cop26 > div.content > section {
         width: 95%;
         padding: 10px;
     }
+
 }
 
 
