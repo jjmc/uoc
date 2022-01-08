@@ -550,7 +550,7 @@ blockquote > p:last-child {
         font-size: .9em;
     }
     h1 {
-        font-size: 1.2rem;
+        /*font-size: 1.2rem;*/
     }
     main {
         padding: 0 10px 0 10px;
@@ -558,8 +558,7 @@ blockquote > p:last-child {
 
     /***************************************************** INDEX RESPONSIVE ***********************************************/
     main.indice > h1, section.sectionI4 > div.content > h1 {
-        font-size: 1.5rem;
-        font-weight: normal;
+        font-size: 5vw;
     }
     section.sectionI1 {
         height: 300px;
@@ -654,12 +653,10 @@ blockquote > p:last-child {
 
 /***************************************************** SINTOMA RESPONSIVE *********************************************/
     main.sintomas > h1 {
-        font-size: 1.5rem;
-        font-weight: normal;
+        font-size: 5vw;
     }
-    main.sintomas > h2 {
-        font-size: 1rem;
-        font-weight: bolder;
+    main.sintomas > section >article > div > h2 {
+        font-size: 4vw;
     }
     main.sintomas > section {
         display: block;
@@ -705,8 +702,7 @@ blockquote > p:last-child {
     }
 /***************************************************** VIDEO RESPONSIVE ***********************************************/
     main.videos > h1 {
-        font-size: 1.5rem;
-        font-weight: normal;
+        font-size: 5vw;
     }
     main.videos > section {
         display: flex;
@@ -743,14 +739,11 @@ blockquote > p:last-child {
 
     /***************************************************** COP25 RESPONSIVE ***********************************************/
     main.cop26 > h1 {
-        font-size: 1.5rem;
-        font-weight: normal;
-        /*color:red;*/
+        font-size: 5vw;
     }
     main.cop26 > div.content > section > h2 {
-        font-size: 1rem;
+        font-size: 4vw;
         font-weight: normal;
-        /*color:blue;*/
     }
     main.cop26 > div.content {
         display: block;
