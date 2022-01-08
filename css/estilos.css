@@ -663,10 +663,12 @@ blockquote > p:last-child {
         width: 100%;
     }
     main.sintomas > section > article > div.col2 {
-        height: 250px;
         margin: 20px 0;
         width: 100%;
-        font-size: 1.05rem;
+        font-size: 1rem;
+    }
+    main.sintomas > section > article > div.col2 > p {
+        text-align: left;
     }
     main.sintomas > section > article:nth-child(1) > div.col1 {
         background-image: url("../images/symptom-01.jpg");
