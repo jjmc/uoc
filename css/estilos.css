@@ -11,11 +11,7 @@ body {
 
 /***************************************************** CABECERA********************************************************/
 header {
-    height: 130px;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background-color: rgb(255,255,255);
+    height: 90px;
 }
 header > div.content {
     margin-top: 10px;
@@ -38,26 +34,38 @@ header > div.content > div.titulo {
 }
 
 /***************************************************** NAVEGACION  ****************************************************/
-header > div.content > nav > ul {
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: rgb(255,255,255);
+    width: 100%;
+    margin-bottom: 20px;
+
+
+}
+nav > ul {
     margin-top: 0;
     margin-left: 0;
+    padding: 10px 0 10px;
     list-style: none;
+
 }
-header > div.content > nav a:link,
-header > div.content > nav a:visited {
+nav a:link,
+nav a:visited {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-header > div.content > nav a:hover {
+nav a:hover {
     color: rgba(0, 0, 0, 0.5);
 }
-header > div.content > nav a.activo {
+nav > ul > li > a.activo {
     color: rgb(189, 55, 0)
 }
-header > div.content > nav > ul {
+nav > ul {
     padding-left: 0;
 }
-header > div.content > nav > ul > li {
+nav > ul > li {
     display: inline-block;
     margin-right: 10px;
     font-weight: bold;
@@ -510,7 +518,7 @@ blockquote > p:last-child {
 @media (max-width: 650px) {
 
     header {
-        height: 185px;
+        height: 90px;
     }
     header > div.content {
         margin-top: 10px;
@@ -519,7 +527,13 @@ blockquote > p:last-child {
         justify-content: center;
         text-align: center;
     }
-    header > div.content > nav > ul > li {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    nav > ul > li {
         display: block;
         font-weight: bold;
         font-size: 1em;
