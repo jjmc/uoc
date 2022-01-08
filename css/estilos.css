@@ -561,17 +561,17 @@ blockquote > p:last-child {
         font-size: 5vw;
     }
     section.sectionI1 {
-        height: 300px;
+        height: 280px;
         background-size: 200%;
-        background-position: top right;
+        background-position: left bottom;
     }
     section.sectionI1 > div.content {
+        height: 280px;
         display: flex;
         justify-content: left;
         align-items: center;
-        font-size: 1.9em;
+        font-size: 4vh;
         line-height: 1.7em;
-        height: 300px;
     }
     section.sectionI1 > div.content > div {
         width: 65%;
