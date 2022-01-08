@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f803d67-6d6e-4b66-bc5e-64b86174f5e8" name="Default Changelist" comment="cop26">
+    <list default="true" id="7f803d67-6d6e-4b66-bc5e-64b86174f5e8" name="Default Changelist" comment="sintoma definitivo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="one" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -249,7 +249,56 @@
       <option name="project" value="LOCAL" />
       <updated>1641656695978</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="sintoma definitivo">
+      <created>1641662180490</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1641662180490</updated>
+    </task>
+    <task id="LOCAL-00030" summary="sintoma evitar desbordamiento y justificación texto en responsivo y normal">
+      <created>1641664525868</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1641664525868</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Menú sticky">
+      <created>1641665834256</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1641665834256</updated>
+    </task>
+    <task id="LOCAL-00032" summary="sticky">
+      <created>1641674183537</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1641674183537</updated>
+    </task>
+    <task id="LOCAL-00033" summary="WEB DEFINITIVA">
+      <created>1641679147003</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1641679147003</updated>
+    </task>
+    <task id="LOCAL-00034" summary="h1 y h2">
+      <created>1641680500144</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1641680500144</updated>
+    </task>
+    <task id="LOCAL-00035" summary="index.html texto en foto">
+      <created>1641681902750</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1641681902750</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +319,13 @@
     <MESSAGE value="definitivo index" />
     <MESSAGE value="definitivo menos sintomas" />
     <MESSAGE value="sintoma" />
-    <option name="LAST_COMMIT_MESSAGE" value="sintoma" />
+    <MESSAGE value="sintoma definitivo" />
+    <MESSAGE value="sintoma evitar desbordamiento y justificación texto en responsivo y normal" />
+    <MESSAGE value="Menú sticky" />
+    <MESSAGE value="sticky" />
+    <MESSAGE value="WEB DEFINITIVA" />
+    <MESSAGE value="h1 y h2" />
+    <MESSAGE value="index.html texto en foto" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.html texto en foto" />
   </component>
 </project>
