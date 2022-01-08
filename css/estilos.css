@@ -555,7 +555,7 @@ blockquote > p:last-child {
 
     /***************************************************** INDEX RESPONSIVE ***********************************************/
     main.indice > h1, section.sectionI4 > div.content > h1 {
-        font-size: 5.5vw;
+        font-size: 5.2vw;;
     }
     section.sectionI1 {
         height: 280px;
@@ -650,7 +650,7 @@ blockquote > p:last-child {
 
 /***************************************************** SINTOMA RESPONSIVE *********************************************/
     main.sintomas > h1 {
-        font-size: 5.5vw;
+        font-size: 5.2vw;;
     }
     main.sintomas > section >article > div > h2 {
         font-size: 4vw;
@@ -699,7 +699,7 @@ blockquote > p:last-child {
     }
 /***************************************************** VIDEO RESPONSIVE ***********************************************/
     main.videos > h1 {
-        font-size: 5.5vw;
+        font-size: 5.2vw;;
     }
     main.videos > section {
         display: flex;
@@ -736,7 +736,7 @@ blockquote > p:last-child {
 
     /***************************************************** COP25 RESPONSIVE ***********************************************/
     main.cop26 > h1 {
-        font-size: 5.5vw;
+        font-size: 5.2vw;;
     }
     main.cop26 > div.content > section > h2 {
         font-size: 4vw;
