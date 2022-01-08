@@ -683,7 +683,7 @@ blockquote > p:last-child {
         padding: 30px 20px;
     }
     main.sintomas > section > article > div.col1 {
-        height: 500px;
+        height: 250px;
         background-repeat: no-repeat;
         background-size:  cover;
         background-position: center center;
