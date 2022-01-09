@@ -1,9 +1,12 @@
+/************************************************** HTML Y BODY  ******************************************************/
+
 html, body {
     padding: 0;
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -496,8 +499,7 @@ main.cop26 > div.content {
     flex-direction: row;
 }
 
-main.cop26 > div.content > div {
-    /*border: 1px solid;*/
+main.cop26 > div.content > section {
     width: 50%;
     padding: 30px;
 
@@ -538,9 +540,9 @@ blockquote > p:last-child {
 /***************************************************** RESPONSIVE *****************************************************/
 /**********************************************************************************************************************/
 
-/*@media (max-width: 375px) {*/
 @media (max-width: 650px) {
 
+    /***************************************************** CABECERA RESPONSIVE ****************************************/
     header {
         height: 90px;
     }
@@ -551,6 +553,8 @@ blockquote > p:last-child {
         justify-content: center;
         text-align: center;
     }
+
+    /***************************************************** NAVEGACIÓN RESPONSIVE **************************************/
     nav {
         display: flex;
         flex-direction: column;
@@ -563,6 +567,8 @@ blockquote > p:last-child {
         font-size: 1em;
         line-height: 1.5em;
     }
+
+    /***************************************************** FOOTER RESPONSIVE *******************************************/
     footer {
         padding: 50px;
     }
@@ -572,11 +578,13 @@ blockquote > p:last-child {
         text-align: center;
         font-size: .9em;
     }
+
+    /***************************************************** MAIN RESPONSIVE *******************************************/
     main {
         padding: 0 10px 0 10px;
     }
 
-    /***************************************************** INDEX RESPONSIVE ***********************************************/
+    /***************************************************** INDEX RESPONSIVE *******************************************/
     main.indice > h1, div.sectionI4 > div.content > h1 {
         font-size: 5.2vw;;
     }
@@ -692,7 +700,7 @@ blockquote > p:last-child {
         line-height: 1rem;
     }
 
-    /***************************************************** SINTOMA RESPONSIVE *********************************************/
+    /***************************************************** SINTOMA RESPONSIVE *****************************************/
     main.sintomas > h1 {
         font-size: 5.2vw;;
     }
@@ -733,24 +741,30 @@ blockquote > p:last-child {
     main.sintomas > div.content > article:nth-child(2) > div.col1 {
         background-image: url("../images/symptom-02.jpg");
     }
+
     main.sintomas > div.content > article:nth-child(3) > div.col1 {
         background-image: url("../images/symptom-03.jpg");
     }
+
     main.sintomas > div.content > article:nth-child(4) > div.col1 {
         background-image: url("../images/symptom-04.jpg");
     }
+
     main.sintomas > div.content > article:nth-child(5) > div.col1 {
         background-image: url("../images/symptom-05.jpg");
     }
-/***************************************************** VIDEO RESPONSIVE ***********************************************/
+
+    /***************************************************** VIDEO RESPONSIVE *******************************************/
     main.videos > h1 {
         font-size: 5.2vw;;
     }
-    main.videos >  div.content {
+
+    main.videos > div.content {
         display: flex;
         flex-direction: column;
     }
-    main.videos >  div.content > div.video {
+
+    main.videos > div.content > div.video {
         margin-bottom: 50px;
     }
     main.videos >  div.content > div.video > div.iframe {
@@ -779,7 +793,7 @@ blockquote > p:last-child {
         border: none;
     }
 
-    /***************************************************** COP25 RESPONSIVE ***********************************************/
+    /***************************************************** COP25 RESPONSIVE *******************************************/
     main.cop26 > h1 {
         font-size: 5.2vw;;
     }
