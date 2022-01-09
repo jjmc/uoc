@@ -181,7 +181,8 @@ h1 {
 main.indice {
     padding-top: 20px;
 }
-section.sectionI1 {
+
+div.sectionI1 {
     height: 350px;
     background-image: url("../images/bg-hero-home.jpg");
     background-repeat: no-repeat;
@@ -189,112 +190,133 @@ section.sectionI1 {
     background-position: top right;
     color: white;
 }
-section.sectionI1 > div.content {
+
+div.sectionI1 > div.content {
     height: 350px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 4.5em;
     line-height: 1.5em;
 }
 
-section.sectionI2 {
+div.sectionI2 {
     font-size: 1.8rem;
     line-height: 1.5em;
     margin-bottom: 100px;
 }
 
-section.sectionI3 {
+div.sectionI3 {
     line-height: 1.5em;
     margin-bottom: 20px;
 }
-section.sectionI3 > div.noticias > article > p.artitulo-enlace > a {
+
+div.sectionI3 > div.noticias > div.article > p.artitulo-enlace > a {
     text-decoration-style: dotted;
     text-underline-offset: 1px;
 }
-section.sectionI3 > div.noticias > article > p.artitulo-enlace > a:hover {
+
+div.sectionI3 > div.noticias > div.article > p.artitulo-enlace > a:hover {
     color: rgb(0, 0, 0);
 }
-section.sectionI3 > div.noticias > article > p.articulo-titulo > a {
+
+div.sectionI3 > div.noticias > div.article > p.articulo-titulo > a {
     text-decoration: none;
 }
-section.sectionI3 > div.noticias > article > p.articulo-titulo > a:hover {
+
+div.sectionI3 > div.noticias > div.article > p.articulo-titulo > a:hover {
     color: rgb(0, 0, 0);
 }
-section.sectionI3 > div.noticias {
+
+div.sectionI3 > div.noticias {
     display: flex;
     flex-direction: row;
 }
-section.sectionI3 > div.noticias > article {
+
+div.sectionI3 > div.noticias > div.article {
     width: 30%;
 }
-section.sectionI3 > div.noticias > article > figure > img.sectionI3Img {
+
+div.sectionI3 > div.noticias > div.article > figure > img.sectionI3Img {
     max-width: 100%;
     height: auto;
 }
-section.sectionI3 > div.noticias {
+
+div.sectionI3 > div.noticias {
     display: flex;
     justify-content: space-between;
 }
-section.sectionI3 > div.noticias > article > figure {
+
+div.sectionI3 > div.noticias > div.article > figure {
     margin: 0;
     font-size: .7em;
 }
-section.sectionI3 > div.noticias > article > figure > figcaption {
+
+div.sectionI3 > div.noticias > div.article > figure > figcaption {
     margin-top: 10px;
 }
-section.sectionI3 > div.noticias > article > div.artitulo-titulo {
+
+div.sectionI3 > div.noticias > div.article > div.artitulo-titulo {
     font-size: .9em;
     font-weight: bolder;
 }
-section.sectionI3 > div.noticias > article > div.artitulo-articulo {
+
+div.sectionI3 > div.noticias > div.article > div.artitulo-articulo {
     font-size: .8em;
     line-height: 1.5em;
 }
-section.sectionI3 > div.noticias > article > div.artitulo-enlace {
+
+div.sectionI3 > div.noticias > div.article > div.artitulo-enlace {
     font-size: .7em;
 }
 
-section.sectionI4 {
+div.sectionI4 {
     background-color: rgb(242, 232, 228);
 }
-section.sectionI4 > div.content {
+
+div.sectionI4 > div.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-section.sectionI4 > div.content > form a {
+div.sectionI4 > div.content > form a {
     color: rgb(189, 55, 0);
     text-decoration: none;
 }
-section.sectionI4 > div.content > form a:hover {
+
+div.sectionI4 > div.content > form a:hover {
     color: rgb(0, 0, 0);
 }
-section.sectionI4 > div.content > form {
+
+div.sectionI4 > div.content > form {
     display: flex;
     flex-direction: column;
     font-size: .5em;
     line-height: 1.3em;
     width: 40%;
 }
-section.sectionI4 > div.content > form input[type=checkbox] {
+
+div.sectionI4 > div.content > form input[type=checkbox] {
     margin-left: 0;
     color: green;
     transform: scale(.8);
 }
-section.sectionI4 > div.content > form input[type=text] {
+
+div.sectionI4 > div.content > form input[type=text] {
     margin-bottom: 10px;
     width: 100%;
     border: 1px solid black;
     font-size: .8rem;
 }
-section.sectionI4 > div.content > form label {
+
+div.sectionI4 > div.content > form label {
     display: flex;
     align-items: center
 }
-section.sectionI4 > div.content > form button {
+
+div.sectionI4 > div.content > form button {
     color: rgb(255, 255, 255);
     background-color: rgb(189, 55, 0);
     width: 170px;
@@ -303,7 +325,8 @@ section.sectionI4 > div.content > form button {
     margin: 10px 0 40px 0;
     font-size: 1.2rem;
 }
-section.sectionI4 > div.content > form button:hover {
+
+div.sectionI4 > div.content > form button:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
@@ -473,7 +496,7 @@ main.cop26 > div.content {
     flex-direction: row;
 }
 
-main.cop26 > div.content > section {
+main.cop26 > div.content > div {
     /*border: 1px solid;*/
     width: 50%;
     padding: 30px;
@@ -554,15 +577,17 @@ blockquote > p:last-child {
     }
 
     /***************************************************** INDEX RESPONSIVE ***********************************************/
-    main.indice > h1, section.sectionI4 > div.content > h1 {
+    main.indice > h1, div.sectionI4 > div.content > h1 {
         font-size: 5.2vw;;
     }
-    section.sectionI1 {
+
+    div.sectionI1 {
         height: 280px;
         background-size: 200%;
         background-position: left bottom;
     }
-    section.sectionI1 > div.content {
+
+    div.sectionI1 > div.content {
         height: 280px;
         display: flex;
         justify-content: left;
@@ -570,67 +595,84 @@ blockquote > p:last-child {
         font-size: 4vh;
         line-height: 1.7em;
     }
-    section.sectionI1 > div.content > div {
+
+    div.sectionI1 > div.content > div {
         width: 75%;
         margin-left: 15px;
     }
-    main.indice > section.sectionI2 {
+
+    main.indice > div.sectionI2 {
         font-size: 1.5rem;
     }
-    main.indice > section.sectionI3 > div.noticias {
+
+    main.indice > div.sectionI3 > div.noticias {
         flex-direction: column;
     }
-    main.indice > section.sectionI3 > div.noticias > article {
+
+    main.indice > div.sectionI3 > div.noticias > div.article {
         width: 100%;
         font-size: 1rem;
     }
-    main.indice > section.sectionI3 > div.noticias > article > figure > figcaption {
+
+    main.indice > div.sectionI3 > div.noticias > div.article > figure > figcaption {
         margin-top: 10px;
     }
-    main.indice > section.sectionI3 > div.noticias > article > p.artitulo-titulo {
+
+    main.indice > div.sectionI3 > div.noticias > div.article > p.artitulo-titulo {
         font-weight: bolder;
         font-size: 2rem;
     }
-    main.indice > section.sectionI3 > div.noticias > article > p.articulo-titulo > a {
+
+    main.indice > div.sectionI3 > div.noticias > div.article > p.articulo-titulo > a {
         text-decoration: none;
         font-size: 1.4rem;
     }
-    main.indice > section.sectionI3 > div.noticias > article > p.artitulo-articulo {
+
+    main.indice > div.sectionI3 > div.noticias > div.article > p.artitulo-articulo {
         line-height: 1.5rem;
     }
-    main.indice > section.sectionI3 > div.noticias > article > p.artitulo-enlace > a {
+
+    main.indice > div.sectionI3 > div.noticias > div.article > p.artitulo-enlace > a {
         font-size: 1rem;
     }
-    section.sectionI4 > div.content > h1 {
+
+    div.sectionI4 > div.content > h1 {
         width: 82%;
     }
-    section.sectionI4 > div.content > form {
+
+    div.sectionI4 > div.content > form {
         display: flex;
         flex-direction: column;
         font-size: .5em;
         line-height: 1.3em;
         width: 82%;
     }
-    section.sectionI4 > div.content > form a {
+
+    div.sectionI4 > div.content > form a {
         color: rgb(189, 55, 0);
         text-decoration: none;
     }
-    section.sectionI4 > div.content > form a:hover {
+
+    div.sectionI4 > div.content > form a:hover {
         color: rgb(0, 0, 0);
     }
-    section.sectionI4 > div.content > form input[type=checkbox] {
+
+    div.sectionI4 > div.content > form input[type=checkbox] {
         margin-left: 0;
         transform: scale(.8);
     }
-    section.sectionI4 > div.content > form input[type=text] {
+
+    div.sectionI4 > div.content > form input[type=text] {
         margin-bottom: 10px;
         width: 100%;
     }
-    section.sectionI4 > div.content > form label {
+
+    div.sectionI4 > div.content > form label {
         display: flex;
         align-items: center
     }
-    section.sectionI4 > div.content > form button {
+
+    div.sectionI4 > div.content > form button {
         color: rgb(255, 255, 255);
         background-color: rgb(189, 55, 0);
         width: 170px;
@@ -638,21 +680,24 @@ blockquote > p:last-child {
         border: 0;
         margin: 10px 0 40px 0;
     }
-    section.sectionI4 > div.content > form button:hover {
+
+    div.sectionI4 > div.content > form button:hover {
         color: rgb(255, 255, 255);
         background-color: rgb(0, 0, 0);
     }
-    section.sectionI4 > div.content > form > p.lpd,
-    section.sectionI4 > div.content > form > label.privacidad {
+
+    div.sectionI4 > div.content > form > p.lpd,
+    div.sectionI4 > div.content > form > label.privacidad {
         font-size: .7rem;
         line-height: 1rem;
     }
 
-/***************************************************** SINTOMA RESPONSIVE *********************************************/
+    /***************************************************** SINTOMA RESPONSIVE *********************************************/
     main.sintomas > h1 {
         font-size: 5.2vw;;
     }
-    main.sintomas > div.content >article > div > h2 {
+
+    main.sintomas > div.content > article > div > h2 {
         font-size: 4vw;
         color:red;
     }
