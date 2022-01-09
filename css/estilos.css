@@ -654,6 +654,7 @@ blockquote > p:last-child {
     }
     main.sintomas > section >article > div > h2 {
         font-size: 4vw;
+        color:red;
     }
     main.sintomas > section {
         display: block;
@@ -740,7 +741,6 @@ blockquote > p:last-child {
     }
     main.cop26 > div.content > section > h2 {
         font-size: 4vw;
-        font-weight: normal;
     }
     main.cop26 > div.content {
         display: block;
