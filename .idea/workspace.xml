@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f803d67-6d6e-4b66-bc5e-64b86174f5e8" name="Default Changelist" comment="H1">
+    <list default="true" id="7f803d67-6d6e-4b66-bc5e-64b86174f5e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sintomas.html" beforeDir="false" afterPath="$PROJECT_DIR$/sintomas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos.html" beforeDir="false" afterPath="$PROJECT_DIR$/videos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,14 +333,27 @@
       <option name="project" value="LOCAL" />
       <updated>1641686877437</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Nueva estructura semántica">
+      <created>1641690777453</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1641690777453</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Nueva estructura semántica">
+      <created>1641691467037</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1641691467037</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="prueba" />
     <MESSAGE value="Merge branch 'main' of https://github.com/jjmc/uoc into main&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules.xml" />
     <MESSAGE value="Prueba" />
     <MESSAGE value="HOME" />
@@ -368,6 +378,7 @@
     <MESSAGE value="index.html" />
     <MESSAGE value="H1 iphone SE" />
     <MESSAGE value="H1" />
-    <option name="LAST_COMMIT_MESSAGE" value="H1" />
+    <MESSAGE value="Nueva estructura semántica" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nueva estructura semántica" />
   </component>
 </project>
