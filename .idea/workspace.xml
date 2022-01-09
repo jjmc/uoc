@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f803d67-6d6e-4b66-bc5e-64b86174f5e8" name="Default Changelist" comment="iframe">
+    <list default="true" id="7f803d67-6d6e-4b66-bc5e-64b86174f5e8" name="Default Changelist" comment="H1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sintomas.html" beforeDir="false" afterPath="$PROJECT_DIR$/sintomas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos.html" beforeDir="false" afterPath="$PROJECT_DIR$/videos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="one" />
+        <entry key="$PROJECT_DIR$" value="copiaMain" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -312,7 +315,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641682878767</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="H1">
+      <created>1641684261660</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1641684261660</updated>
+    </task>
+    <task id="LOCAL-00039" summary="H1 iphone SE">
+      <created>1641685678419</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1641685678419</updated>
+    </task>
+    <task id="LOCAL-00040" summary="H1">
+      <created>1641686877437</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1641686877437</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +366,8 @@
     <MESSAGE value="index.html texto en foto" />
     <MESSAGE value="iframe" />
     <MESSAGE value="index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="index.html" />
+    <MESSAGE value="H1 iphone SE" />
+    <MESSAGE value="H1" />
+    <option name="LAST_COMMIT_MESSAGE" value="H1" />
   </component>
 </project>
